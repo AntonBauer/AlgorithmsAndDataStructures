@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-var list = new ADS.DataStructures.Lists.List<int>
+using ADS.DataStructures.Lists.SingleLinkedList;
+
+var list = new SingleLinkedList<int>
 {
     1,
     3,
@@ -21,7 +23,7 @@ Console.WriteLine($"First odd is {odd}");
 Console.WriteLine($"Contains 4? {list.Contains(4)}");
 Console.WriteLine($"Contains 3? {list.Contains(3)}");
 
-static void PrintList<T>(ADS.DataStructures.Lists.List<T> list)
+static void PrintList<T>(SingleLinkedList<T> list)
 {
     Console.WriteLine("Some values:");
     foreach(var value in list)

@@ -1,4 +1,4 @@
-﻿namespace ADS.DataStructures.Lists;
+﻿namespace ADS.DataStructures.Lists.SingleLinkedList;
 
 internal record ListNode<T>(T Data)
 {

@@ -1,20 +1,20 @@
 ﻿using System.Collections;
 
-namespace ADS.DataStructures.Lists;
+namespace ADS.DataStructures.Lists.SingleLinkedList;
 
-public class List<T> : IEnumerable<T>
+public class SingleLinkedList<T> : IEnumerable<T>
 {
     private ListNode<T>? _head;
 
     private bool IsEmpty => _head is null;
 
-    public List()
+    public SingleLinkedList()
     {
     }
 
-    public List(T value) => Add(value);
+    public SingleLinkedList(T value) => Add(value);
 
-    public List(IEnumerable<T> values) => AddRange(values);
+    public SingleLinkedList(IEnumerable<T> values) => AddRange(values);
 
     public IEnumerator<T> GetEnumerator()
     {
