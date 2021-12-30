@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADS.Cli", "ADS.Cli\ADS.Cli.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADS.DataStructures.Lists", "ADS.DataStructures.Lists\ADS.DataStructures.Lists.csproj", "{6C4CB9B8-8BB0-4971-90F6-2D0D34111704}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADS.DataStructures.Trees", "ADS.DataStructures.Trees\ADS.DataStructures.Trees.csproj", "{DA09A1AB-AFEE-4B43-9737-F3A2709F87D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6C4CB9B8-8BB0-4971-90F6-2D0D34111704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C4CB9B8-8BB0-4971-90F6-2D0D34111704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C4CB9B8-8BB0-4971-90F6-2D0D34111704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA09A1AB-AFEE-4B43-9737-F3A2709F87D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA09A1AB-AFEE-4B43-9737-F3A2709F87D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA09A1AB-AFEE-4B43-9737-F3A2709F87D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA09A1AB-AFEE-4B43-9737-F3A2709F87D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

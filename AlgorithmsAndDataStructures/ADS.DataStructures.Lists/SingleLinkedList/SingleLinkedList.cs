@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using ADS.DataStructures.Lists.Extensions;
 
 namespace ADS.DataStructures.Lists.SingleLinkedList;
 
@@ -46,11 +47,7 @@ public class SingleLinkedList<T> : IEnumerable<T>
         current.Next = new ListNode<T>(value);
     }
 
-    public void AddRange(IEnumerable<T> values)
-    {
-        foreach (var value in values)
-            Add(value);
-    }
+    public void AddRange(IEnumerable<T> values) => values.ForEach(Add);
 
     public void Remove(T value)
     {
